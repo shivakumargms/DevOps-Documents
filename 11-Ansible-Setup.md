@@ -26,7 +26,7 @@ ansible ALL=(ALL) NOPASSWD: ALL
 ```
 sudo vi /etc/ssh/sshd_config
 ```
--> comment PasswordAuthentication no
+-> #comment PasswordAuthentication no
 -> PermitEmptyPasswords yes
 
 ### d) Restart the server ###
